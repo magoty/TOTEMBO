@@ -1,0 +1,225 @@
+@media(max-width:1354px) {
+    .sales__div {
+        /* grid-template-columns: repeat(3, 1fr); */
+        row-gap: 30px;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .clock {
+        padding-right: 0;
+    }
+
+    .header__a::after {
+        background: #000000;
+    }
+
+    .header__a::before {
+        background: #000000;
+    }
+
+    .header__a:hover::after {
+        transform: scaleX(1);
+    }
+
+    .header__a:hover::before {
+        transform: scaleX(0);
+    }
+
+    .grand {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #E1E1E1;
+        border-radius: 10px;
+        margin-top: 40px;
+        flex-direction: column;
+        row-gap: 65px;
+        column-gap: -5px;
+        position: relative;
+        grid-area: grand;
+    }
+}
+
+@media(max-width:1058px) {
+
+    .sales {
+        padding: 73px 0 47px 0;
+        flex-direction: column;
+        gap: 21px;
+    }
+
+    .sale {
+        padding-left: 0;
+    }
+
+    .swiss {
+        flex-direction: column;
+        padding: 73px 0 47px 0;
+        row-gap: 30px;
+    }
+
+    .grand {
+        padding: 0 0 0 0;
+    }
+
+    .grans__img {
+        object-fit: scale-down;
+        width: 100%;
+    }
+
+    .sales__div {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .clock__block {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .advicee {
+        max-width: 636px;
+        width: 100%;
+        grid-template-rows: 470px 470px;
+        grid-template-columns: 1fr;
+        grid-template-areas: "ad" "ad1";
+    }
+
+    .div__footer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .footer__ul {
+        text-align: center;
+    }
+
+    .last__p__1 {
+        margin: 0 auto;
+    }
+
+    .last__text {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .last__icons {
+        justify-content: center;
+    }
+
+    .footer {
+        padding: 50px 0 30px 0;
+    }
+
+
+}
+
+@media(max-width:750px) {
+    .sales__div {
+        grid-template-areas: "sale"
+            "swiss"
+            "grand ";
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .grans__img {
+        height: 234px;
+        padding-top: 84px;
+    }
+
+    .grans__sale {
+        padding-left: 0px;
+        gap: 29px;
+        padding-bottom: 30px;
+    }
+
+    .sales__div {
+        padding-top: -30px;
+    }
+
+    .grand {
+        margin: 0;
+    }
+
+}
+
+@media(max-width:640px) {
+    .header__ul {
+        display: flex;
+        gap: 40px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .clock__card {
+        max-width: initial;
+        padding: 72px 55px 39px 55px;
+    }
+
+    .mini__card {
+        width: 100%;
+        max-width: initial;
+    }
+}
+
+@media(max-width:520px) {
+    .advice__text {
+        text-align: center;
+        font-family: 'MR';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        font-variant: small-caps;
+        color: #E1E1E1;
+        max-width: 290px;
+        margin: 0 auto;
+    }
+
+    .advice__h2 {
+        font-family: 'MB';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+        color: #FFFFFF;
+        font-variant: small-caps;
+        width: 290px;
+        text-align: center;
+    }
+
+    .advices {
+        padding-top: 95px;
+        background: url(../img/Rectangle\ 89.png) center center / cover;
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .date__1 {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        font-family: 'MR';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        align-self: flex-start;
+        padding-bottom: 0px;
+        padding-left: 20px;
+    }
+}
